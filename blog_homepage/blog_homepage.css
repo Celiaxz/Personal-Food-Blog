@@ -1,40 +1,49 @@
 .container {
   display: grid;
   width: 99vw;
-  height: 80vw;
+  /* height: 80vw; */
   margin: auto;
   margin-top: 20px;
-  grid-template-rows: 10vw 10vw 55vw 5vw;
+  grid-template-rows: 10vw 8vw 40vw 5vw;
   grid-gap: 10px;
   background-color: hsl(43, 74%, 49%);
 }
 
 .box {
   display: flex;
-  align-items: center;
+  /* align-items: center; */
   /* border: 2px solid blue; */
   /* background-color: green; */
 }
-
+.header_content {
+  display: flex;
+}
 #Navbar {
   display: flex;
-  border-radius: 10px; 
-  padding: 5px;
+  /* border-radius: 10px; */
+  /* padding: 5px; */
   margin: auto;
-  margin-bottom: 80px;
+  /* margin-bottom: 80px; */
   /* border: 2px solid #daa520; */
-  color: #f4a460;
+  color: #800000;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
-  font-style: italic;
-  font-weight: 1000;
-  background-color: #800000;
-}
 
+  font-weight: 1000;
+  /* background-color: #800000; */
+}
+.main_header {
+  /* padding-right: 20vw; */
+  font-size: 20px;
+  font-style: italic;
+}
+.social_contact {
+  /* margin: 0; */
+}
 #title {
   display: flex;
   justify-content: center;
-  font-size: 120px;
+  font-size: 70px;
   font-style: italic;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
@@ -65,7 +74,7 @@
 
   /* border: 2px solid pink; */
   /* grid-gap: 2px; */
- /* margin: 2px; */
+  /* margin: 2px; */
 }
 
 /* .card1 {
@@ -124,10 +133,21 @@
   color: #800000;
 }
 
-/* .food_content1 {
-  
-
 .food_content2 {
 }
 .food_content3 {
+}
+
+#footer_content {
+  display: flex;
+  justify-content: space-between;
+}
+.footer {
+  justify-content: center;
+  color: #800000;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-style: oblique;
+  padding-left: 30%;
+  padding-top: 50px;
 }
