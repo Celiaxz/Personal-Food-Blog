@@ -1,12 +1,12 @@
+* {
+  margin: 0;
+}
 .container {
   display: grid;
-  width: 99vw;
   /* height: 80vw; */
   margin: auto;
-  margin-top: 20px;
-  grid-template-rows: 10vw 8vw 40vw 5vw;
+  grid-template-rows: 10vw 8vw 40vw 7vw;
   grid-gap: 10px;
-  background-color: hsl(43, 74%, 49%);
 }
 
 .box {

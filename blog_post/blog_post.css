@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+}
+.container {
+  display: grid;
+  margin: auto;
+  grid-template-rows: 10vw 8vw 40vw 7vw;
+  grid-gap: 10px;
+  background-color: hsl(43, 74%, 49%);
+}
+.header_content {
+  display: flex;
+}
+#Navbar {
+  display: flex;
+  margin: auto;
+
+  color: #800000;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+
+  font-weight: 1000;
+}
+.main_header {
+  font-size: 20px;
+  font-style: italic;
+}
